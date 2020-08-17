@@ -1,21 +1,22 @@
 ﻿<Properties StartupConfiguration="{15DDB15A-3662-4E4E-860C-07F49DA52524}|MinhaDemoMvc">
-  <MonoDevelop.Ide.ItemProperties.MinhaDemoMvc FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Startup.cs">
+  <MonoDevelop.Ide.ItemProperties.MinhaDemoMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Controllers/HomeController.cs">
     <Files>
-      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="MinhaDemoMvc/Startup.cs" Line="1" Column="1" />
+      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="22" Column="1" />
+      <File FileName="MinhaDemoMvc/Startup.cs" Line="46" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MinhaDemoMvc" expanded="True">
             <Node name="MinhaDemoMvc" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -24,6 +25,9 @@
         <State name="__root__">
           <Node name="MinhaDemoMvc" expanded="True" selected="True" />
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
