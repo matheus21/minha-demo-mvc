@@ -24,6 +24,11 @@ namespace MinhaDemoMvc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = Microsoft.AspNetCore.Http.SameSiteMode.None;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +46,7 @@ namespace MinhaDemoMvc
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            //app.UseCookiePolicy();
 
             app.UseRouting();
 

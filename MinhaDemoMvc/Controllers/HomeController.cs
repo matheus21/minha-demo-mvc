@@ -22,36 +22,12 @@ namespace MinhaDemoMvc.Controllers
 
         public IActionResult Index()
         {
-            //Simulação de dados da model vindos de um formulário
-            var filme = new Filme
-            {
-                Titulo = "Oi",
-                DataLancamento = DateTime.Now,
-                Genero = null,
-                Avaliacao = 10,
-                Valor = 20000
-            };
-
-            //Redireciona para Privacy
-            return RedirectToAction("Privacy", filme);
-            //return View();
+            return View();
         }
 
 
-        public IActionResult Privacy(Filme filme)
+        public IActionResult Privacy()
         {
-            //ModelState -> estado da model
-            if(ModelState.IsValid)
-            {
-                
-            }
-
-            //Pegando erros da Model
-            foreach(var error in ModelState.Values.SelectMany(m => m.Errors))
-            {
-                Console.WriteLine(error.ErrorMessage);
-            }
-
             return View();
         }
 

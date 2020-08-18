@@ -33,3 +33,5 @@
 /Users/matheusoliveira/Projetos/MinhaDemoMvc/MinhaDemoMvc/obj/Release/netcoreapp3.1/MinhaDemoMvc.pdb
 /Users/matheusoliveira/Projetos/MinhaDemoMvc/MinhaDemoMvc/obj/Release/netcoreapp3.1/MinhaDemoMvc.genruntimeconfig.cache
 /Users/matheusoliveira/Projetos/MinhaDemoMvc/MinhaDemoMvc/obj/Release/netcoreapp3.1/MinhaDemoMvc.csproj.CopyComplete
+/Users/matheusoliveira/Projetos/MinhaDemoMvc/MinhaDemoMvc/obj/Release/netcoreapp3.1/Razor/Views/Shared/_AvisoGeral.cshtml.g.cs
+/Users/matheusoliveira/Projetos/MinhaDemoMvc/MinhaDemoMvc/obj/Release/netcoreapp3.1/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
