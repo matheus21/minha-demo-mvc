@@ -1,29 +1,22 @@
 ﻿<Properties StartupConfiguration="{15DDB15A-3662-4E4E-860C-07F49DA52524}|MinhaDemoMvc">
   <MonoDevelop.Ide.ItemProperties.MinhaDemoMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Program.cs">
     <Files>
-      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="22" Column="1" />
-      <File FileName="MinhaDemoMvc/Startup.cs" Line="46" Column="1" />
+      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="52" Column="1" />
+      <File FileName="MinhaDemoMvc/Startup.cs" />
+      <File FileName="MinhaDemoMvc/Models/Filme.cs" Line="36" Column="43" />
+      <File FileName="MinhaDemoMvc/Program.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MinhaDemoMvc" expanded="True">
             <Node name="MinhaDemoMvc" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-              </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="MinhaDemoMvc" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -34,7 +27,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/matheusoliveira/Projetos/MinhaDemoMvc/MinhaDemoMvc/Controllers/HomeController.cs" relfile="MinhaDemoMvc/Controllers/HomeController.cs" line="44" column="1" />
+      <Breakpoint file="/Users/matheusoliveira/Projetos/MinhaDemoMvc/MinhaDemoMvc/Controllers/HomeController.cs" relfile="MinhaDemoMvc/Controllers/HomeController.cs" line="52" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

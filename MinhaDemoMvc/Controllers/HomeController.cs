@@ -22,18 +22,37 @@ namespace MinhaDemoMvc.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            //Simulação de dados da model vindos de um formulário
+            var filme = new Filme
+            {
+                Titulo = "Oi",
+                DataLancamento = DateTime.Now,
+                Genero = null,
+                Avaliacao = 10,
+                Valor = 20000
+            };
+
+            //Redireciona para Privacy
+            return RedirectToAction("Privacy", filme);
+            //return View();
         }
 
 
-        public IActionResult Privacy()
+        public IActionResult Privacy(Filme filme)
         {
-            //return Json("{'nome':'Matheus'}");
-            //var fileBytes = System.IO.File.ReadAllBytes("/Users/matheusoliveira/Documents/arquivo.txt");
-            //var fileName = "arquivo.txt";
-            //return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, fileName);
+            //ModelState -> estado da model
+            if(ModelState.IsValid)
+            {
+                
+            }
 
-            return Content("Qualquer coisa");
+            //Pegando erros da Model
+            foreach(var error in ModelState.Values.SelectMany(m => m.Errors))
+            {
+                Console.WriteLine(error.ErrorMessage);
+            }
+
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
