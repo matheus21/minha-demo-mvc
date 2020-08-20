@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace MinhaDemoMvc
 {
@@ -29,6 +30,9 @@ namespace MinhaDemoMvc
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = Microsoft.AspNetCore.Http.SameSiteMode.None;
             });
+
+            services.AddDbContext<MinhaDemoMvcContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MinhaDemoMvcContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
