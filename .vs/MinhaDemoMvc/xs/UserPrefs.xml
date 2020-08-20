@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{15DDB15A-3662-4E4E-860C-07F49DA52524}|MinhaDemoMvc">
   <MonoDevelop.Ide.ItemProperties.MinhaDemoMvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MinhaDemoMvc/Views/Shared/_ValidationScriptsPartial.cshtml">
     <Files>
-      <File FileName="MinhaDemoMvc/Views/Home/Index.cshtml" Line="5" Column="28" />
-      <File FileName="MinhaDemoMvc/Controllers/HomeController.cs" Line="11" Column="2" />
-      <File FileName="MinhaDemoMvc/Views/Shared/_AvisoGeral.cshtml" Line="3" Column="7" />
-      <File FileName="MinhaDemoMvc/Program.cs" Line="16" Column="1" />
+      <File FileName="MinhaDemoMvc/Views/_ViewImports.cshtml" Line="5" Column="32" IsPinned="True" />
+      <File FileName="MinhaDemoMvc/Models/Filme.cs" Line="31" Column="35" />
+      <File FileName="MinhaDemoMvc/Views/Filmes/Index.cshtml" Line="58" Column="40" />
+      <File FileName="MinhaDemoMvc/Views/Shared/_Layout.cshtml" Line="9" Column="83" />
+      <File FileName="MinhaDemoMvc/Controllers/FilmesController.cs" Line="23" Column="31" />
+      <File FileName="MinhaDemoMvc/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,11 +16,20 @@
             <Node name="MinhaDemoMvc" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="ViewComponents" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Filmes" expanded="True" />
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="Carrinho" expanded="True" />
+                  </Node>
+                  <Node name="_ValidationScriptsPartial.cshtml" selected="True" />
+                </Node>
               </Node>
-              <Node name="Program.cs" selected="True" />
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -31,7 +42,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/matheusoliveira/Projetos/MinhaDemoMvc/MinhaDemoMvc/Controllers/FilmesController.cs" relfile="MinhaDemoMvc/Controllers/FilmesController.cs" line="22" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

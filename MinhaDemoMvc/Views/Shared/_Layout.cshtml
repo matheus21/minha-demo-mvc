@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - MinhaDemoMvc</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/fontawesome-free-5.14.0-web/css/all.css" />
 </head>
 <body>
     <header>
@@ -22,10 +23,13 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Filmes" asp-action="Adicionar">Filmes</a>
                         </li>
                     </ul>
                 </div>
+                @*Chamar o ViewComponent através de um TagHelper*@
+                @*<vc:Carrinho></vc:Carrinho>*@
+
             </div>
         </nav>
     </header>
@@ -40,10 +44,13 @@
         <div class="container">
             &copy; 2020 - MinhaDemoMvc - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
+        @*<vc:Carrinho></vc:Carrinho>*@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/fontawesome-free-5.14.0-web/js/all.js"></script>
+
     @RenderSection("Scripts", required: false)
 </body>
 </html>

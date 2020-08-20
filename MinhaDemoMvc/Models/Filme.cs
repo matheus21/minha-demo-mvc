@@ -30,7 +30,7 @@ namespace MinhaDemoMvc.Models
         [Column(TypeName = "decimal(18,2)")]
         public decimal Valor { get; set; }
 
-        [RegularExpression(@"^[0-5]*$", ErrorMessage ="Somente números")]
+        [RegularExpression(@"^[0-5]*$", ErrorMessage ="Somente números entre 0 e 5")]
         [Required(ErrorMessage = "Preencha o campo Avaliação")]
         [Display(Name ="Avaliação")]
         public int Avaliacao { get; set; }
